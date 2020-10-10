@@ -10,6 +10,28 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.topBar}>
+          <div className={styles.logoContainer}>
+            <img
+              src={'/logo.png'}
+              className={styles.logoImg}
+            />
+          </div>
+          <div className={styles.socialContainer}>
+          <img
+              src={'/tuit.svg'}
+              className={styles.mediaLogo}
+            />
+            <img
+              src={'/instagram.svg'}
+              className={styles.mediaLogo}
+            />
+            <img
+              src={'/facebook.svg'}
+              className={styles.mediaLogo}
+            />
+          </div>
+        </div>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
