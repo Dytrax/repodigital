@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import AwesomeSlider from "react-awesome-slider";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        
+        <div className={styles.topContainer}>
+       
         <div className={styles.topBar}>
           <div className={styles.logoContainer}>
             <img
@@ -31,6 +35,12 @@ export default function Home() {
               className={styles.mediaLogo}
             />
           </div>
+        </div>
+        <AwesomeSlider className={styles.sliderContainer}>
+        <div data-src="fondotestone.jpeg"></div>
+        <div data-src="fondotesttwo.jpg"></div>
+
+        </AwesomeSlider>
         </div>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
