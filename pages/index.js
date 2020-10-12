@@ -36,8 +36,11 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className={styles.descriptionContainer}>
+          
+        </div>
         <AwesomeSlider className={styles.sliderContainer}>
-        <div data-src="fondotestone.jpeg"></div>
+       <div data-src="fondotestone.jpeg"></div>
         <div data-src="fondotesttwo.jpg"></div>
 
         </AwesomeSlider>
