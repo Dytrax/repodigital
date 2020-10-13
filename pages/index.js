@@ -38,7 +38,9 @@ export default function Home() {
         </div>
         <div className={styles.descriptionContainer}>
           <text className={styles.titles}>Cantar y Contar</text>
-          <text className={styles.subtitles}>Un regalo con musica, magia y expresiones culturares que tus hijos nunca olvidaran</text>
+{/*           <text className={styles.subtitles}>Un regalo con musica, magia y expresiones culturares que tus hijos nunca olvidaran</text>
+ */}          <text className={styles.subtitles}>El espacio para que tus hijos aprendan arte, expresion corporal, a cantar y contar con proposito</text>
+
           <div className={styles.divRow}>
           <Button variant="warning">Obtener ahora</Button>{' '}
             <Button variant="info">Leer más</Button>{' '}
