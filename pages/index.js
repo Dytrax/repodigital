@@ -37,11 +37,11 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.descriptionContainer}>
-          <text className={styles.title}>Cantar y Contar</text>
+          <text className={styles.titles}>Cantar y Contar</text>
           <text className={styles.subtitles}>Un regalo con musica, magia y expresiones culturares que tus hijos nunca olvidaran</text>
           <div className={styles.divRow}>
-            <Button variant="primary">Adquierelo Ya</Button>{' '}
-            <Button variant="primary">Conoce más</Button>{' '}
+          <Button variant="warning">Obtener ahora</Button>{' '}
+            <Button variant="info">Leer más</Button>{' '}
 
 
           </div>
@@ -52,8 +52,11 @@ export default function Home() {
         {/* <div className={styles.backdrop}>
   <p className={styles.text}>Cantar y Contar</p>
 </div>   */}
-       <div data-src="fondotestone.jpeg"></div>
-        <div data-src="fondotesttwo.jpg"></div>
+       <div data-src="Fondo montañas completo.png"></div>
+        <div data-src="Playa clara 1.png"></div>
+        <div data-src="Palma.png"></div>
+        <div data-src="Cerca finca.png"></div>
+
 
         </AwesomeSlider>
         </div>
