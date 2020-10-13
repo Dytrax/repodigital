@@ -44,7 +44,7 @@ export default function Home() {
           <div className={styles.divRow}>
           <Button variant="warning">Obtener ahora</Button>{' '}
             <Button variant="info">Leer más</Button>{' '}
-
+            <Button variant="danger">Donar</Button>
 
           </div>
 
