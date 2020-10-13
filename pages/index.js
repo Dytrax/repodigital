@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import AwesomeSlider from "react-awesome-slider";
+import { Button } from 'react-bootstrap';
 
 export default function Home() {
   return (
@@ -11,7 +12,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        
         <div className={styles.topContainer}>
        
         <div className={styles.topBar}>
@@ -37,9 +37,21 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.descriptionContainer}>
-          
+          <text className={styles.title}>Cantar y Contar</text>
+          <text className={styles.subtitles}>Un regalo con musica, magia y expresiones culturares que tus hijos nunca olvidaran</text>
+          <div className={styles.divRow}>
+            <Button variant="primary">Adquierelo Ya</Button>{' '}
+            <Button variant="primary">Conoce más</Button>{' '}
+
+
+          </div>
+
         </div>
+        
         <AwesomeSlider className={styles.sliderContainer}>
+        {/* <div className={styles.backdrop}>
+  <p className={styles.text}>Cantar y Contar</p>
+</div>   */}
        <div data-src="fondotestone.jpeg"></div>
         <div data-src="fondotesttwo.jpg"></div>
 

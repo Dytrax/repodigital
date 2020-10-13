@@ -30,18 +30,58 @@
 
 .descriptionContainer{
   width: 80%;
-  height: 50px;
   background-color: aqua;
   position: absolute;
   z-index: 100;
   top: 50%;
   margin-left: 10%;
-  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+}
+.divRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+  background-color: purple;
 }
 .titles {
   font-size: larger;
   font-weight: bold;
-  font-family: Arial;
+  font-family: Futura;
+  font-size: 80px;
+}
+
+
+.backdrop {
+  background: url('/niña.jpg');           /*  url("https://rpsthecoder.github.io/img-repo/Taitō%20by%20Jezael%20Melgoza.jpg") center; */
+  background-size:        contain;
+  margin:                 auto;
+ /*  width:                  100%; */
+ width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.text {
+  color:              white;
+  border:             4px solid;
+  background:         rgb(55, 80, 161);
+  mix-blend-mode:     multiply;
+  font:               bolder 12vw 'Alfa Slab One';
+  text-align:         center;
+  margin:             0;
+ 
+  
+}
+.subtitles {
+  font-size: medium;
+  font-weight: bold;
+  font-family: Futura;
 }
 
 .logoImg {
