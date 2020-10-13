@@ -42,11 +42,11 @@
   padding:10px;
 }
 .divRow {
-  margin:10px;
+  margin:30px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 500px;
+  width: 100%;
 /*   background-color: purple;
  */}
 .titles {
