@@ -8,6 +8,7 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.5.2",
     "mongoose": "^5.10.9",
     "next": "9.5.5",
